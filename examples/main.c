@@ -179,7 +179,7 @@ int main(int argc, char *argv[])
 #endif
 
     //We recommended refresh the panel to white color before storing in the warehouse.
-    EPD_IT8951_Clear_Refresh(Dev_Info, Init_Target_Memory_Addr, INIT_Mode);
+    //EPD_IT8951_Clear_Refresh(Dev_Info, Init_Target_Memory_Addr, INIT_Mode);
 
     //EPD_IT8951_Standby();
     EPD_IT8951_Sleep();
