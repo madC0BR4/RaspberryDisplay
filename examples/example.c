@@ -245,7 +245,7 @@ UBYTE Display_BMP_Example(UWORD Panel_Width, UWORD Panel_Height, UDOUBLE Init_Ta
         Refresh_Frame_Buf = NULL;
     }
 
-    DEV_Delay_ms(5000);
+    DEV_Delay_ms(10000);
 
     return 0;
 }
